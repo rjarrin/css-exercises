@@ -1,0 +1,18 @@
+.text {
+    background-color: #da51a1;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.newclass {
+    font-size: 24px;
+}
+
+#second-id {
+    font-size: 36px;
+    color: blue;
+}
+
+#fourth-id {
+    font-weight: bold;
+    background-color: lightgreen;
+}
