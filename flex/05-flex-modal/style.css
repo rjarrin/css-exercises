@@ -20,6 +20,20 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* Prepare modal window as flexbox */
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+/* Style header text */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .icon {
@@ -33,6 +47,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Additions */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -50,10 +66,15 @@ body {
   padding: 0;
 }
 
+.text {
+  margin-bottom: 16px;
+}
+
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  /* Additions */
 }
 
 button.continue {
